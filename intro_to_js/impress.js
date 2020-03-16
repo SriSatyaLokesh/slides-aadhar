@@ -1,9 +1,4 @@
-function startPres(document, window) {
-if (window.presStarted)
-    return;
-window.presStarted = true;
 
-var innerBg = document.querySelector('.innerBg');
 
 /**
  * impress.js
