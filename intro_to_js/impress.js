@@ -823,10 +823,3 @@ var innerBg = document.querySelector('.innerBg');
 // will help somebody learn at least some part of it.
 
 
-document.addEventListener("keydown", function(e) {
-    if (e.keyCode == 27) {
-        impress().goto('overview');
-    }
-}, false);
-
-}
